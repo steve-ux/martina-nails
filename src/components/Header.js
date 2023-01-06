@@ -1,7 +1,6 @@
 function Header() {
     return (
     <div className="header">
-  Hola, soy una web de uñas.
     </div>
     );
   }
