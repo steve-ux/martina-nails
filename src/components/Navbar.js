@@ -1,4 +1,4 @@
-
+import Logo from "../assets/Logo-MP.jpg";
 
 function Navbar() {
     return (
@@ -16,7 +16,7 @@ function Navbar() {
               <li><a href="#about">NOSOTROS</a></li>
               <li><a href="#contact">CONTACTO</a></li>
           </ul>
-      <h1 class="logo">MARTINA NAILS</h1>
+      <h1 class="logo"><img src={Logo} alt="Logo Martina Puebla" width="40"/> MARTINA PUEBLA</h1>
           
       </div>
   </nav>

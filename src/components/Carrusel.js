@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselFadeExample() {
   return (
-    <Carousel fade interval="3000" pause="hover false">
+    <Carousel fade interval="4000" pause="hover false">
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -10,9 +10,9 @@ function CarouselFadeExample() {
           alt="First slide"
         />
         <Carousel.Caption className="justify-content-center">
-          <h2 className="d-flex justify-content-center">BEAUTY</h2>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <button>PEDIR TURNO</button>
+          <h2 className="d-flex justify-content-center">CONFIANZA</h2>
+          <p>Trato personalizado y trabajos de excelente calidad para verte más bella.</p>
+          <button><a href="https://api.whatsapp.com/send?phone=5492616376579&text=Hola!%20Visité%20su%20web%20y%20quisiera%20solicitar%20un%20turno.%20Gracias!" target="_blank" rel="noreferrer" className="btn-carrusel">PEDIR TURNO</a></button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,9 +23,9 @@ function CarouselFadeExample() {
         />
 
         <Carousel.Caption>
-        <h2 className="d-flex justify-content-center">FASHION</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button>PEDIR TURNO</button>
+        <h2 className="d-flex justify-content-center">MODA</h2>
+        <p>Probá los últimos estilos y combinaciones, somos el arte de las uñas.</p>
+        <button><a href="https://api.whatsapp.com/send?phone=5492616376579&text=Hola!%20Visité%20su%20web%20y%20quisiera%20solicitar%20un%20turno.%20Gracias!" target="_blank" rel="noreferrer" className="btn-carrusel">PEDIR TURNO</a></button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,8 +37,8 @@ function CarouselFadeExample() {
 
         <Carousel.Caption>
         <h2 className="d-flex justify-content-center">GLAMOUR</h2>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          <button>PEDIR TURNO</button>
+          <p>Llamá la atención de tu círculo social a un precio más que accesible.</p>
+          <button><a href="https://api.whatsapp.com/send?phone=5492616376579&text=Hola!%20Visité%20su%20web%20y%20quisiera%20solicitar%20un%20turno.%20Gracias!" target="_blank" rel="noreferrer" className="btn-carrusel">PEDIR TURNO</a></button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
