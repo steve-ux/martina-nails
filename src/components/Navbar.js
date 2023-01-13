@@ -1,8 +1,8 @@
-import Logo from "../assets/Logo-MP.jpg";
+import Logo from "../assets/mp.png";
 
 function Navbar() {
     return (
-    <div className="burgerNav">
+      <div className="burgerNav">
   <nav class="navbar">
       <div class="navbar-container container">
         <input type="checkbox" name="" id=""/>
@@ -13,11 +13,10 @@ function Navbar() {
           </div>
           <ul class="menu-items">
               <li><a href="#home">INICIO</a></li>
-              <li><a href="#about">NOSOTROS</a></li>
+              <li><a href="#servicios">SERVICIOS</a></li>
               <li><a href="#contact">CONTACTO</a></li>
           </ul>
-      <h1 class="logo"><img src={Logo} alt="Logo Martina Puebla" width="40"/> MARTINA PUEBLA</h1>
-          
+      <img src={Logo} alt="Logo Martina Puebla" width="200"/>       
       </div>
   </nav>
     </div>
